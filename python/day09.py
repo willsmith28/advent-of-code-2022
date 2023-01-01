@@ -1,6 +1,6 @@
 # flake8: noqa: F811
 import pathlib
-from typing import TypeAlias, Callable
+from typing import Callable, TypeAlias
 
 Motion: TypeAlias = tuple[str, int]
 Position: TypeAlias = tuple[int, int]
